@@ -215,8 +215,8 @@ const fgclink = {
     "message": {
         "groupInviteMessage": {
             "groupJid": "6289636827082-1635036556@g.us",
-            "inviteCode": "https://chat.whatsapp.com/FGmVjFYJBjjGst62qwNKJB",
-            "groupName": "Akame Bot",
+            "inviteCode": -",
+            "groupName": "-",
             "caption": '©@Rika',
             'jpegThumbnail': thumb
         }
@@ -391,7 +391,7 @@ const fakestatus = {
 	    if (new Date() * 1 - setting.status > 1000) {
 		let _uptime = process.uptime() * 1000
 		let uptime = clockString(_uptime)
-		await akame.updateProfileStatus(`I am Akame-Bot | Aktif Selama ${uptime} | Mode : ${akame.public ? 'Public-Mode' : 'Self-Mode'} | User : ${Object.keys(global.db.data.users).length} | Jangan Telp Bot | © Created @Rika-Chan`).catch(_ => _)
+		await akame.updateProfileStatus(`I am Rika-Bot | Aktif Selama ${uptime} | Mode : ${akame.public ? 'Public-Mode' : 'Self-Mode'} | User : ${Object.keys(global.db.data.users).length} | Jangan Telp Bot | © Created Rika-Chan`).catch(_ => _)
 		setting.status = new Date() * 1
 	    }
 	}

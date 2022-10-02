@@ -1152,7 +1152,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 anu = `⭔ Allah SWT.
 ⭔ Ortu Saya.
 ⭔ DikaArdnt (Author).
-⭔ @Rika (Recode).
+⭔ Rika (Recode).
 ⭔ SkyzooDev.
 ⭔ Sanzy YT.
 ⭔ Fatih A.
@@ -1170,7 +1170,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
 • Wib : ${wib}
 • Wita : ${wita}
 • Wit : ${wit}`
-                let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
+                let buttons = [{ buttonId: 'command', buttonText: { displayText: '🐦Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '🐬All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🧊Donasi' }, type: 1 }]
             await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
             }
             break
@@ -1303,7 +1303,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
 
 🌱 *Recode By : @Rika*
 ⎙ https://github.com/Rika.js/RikaChan`
-                let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
+                let buttons = [{ buttonId: 'command', buttonText: { displayText: '🐦️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '🐬All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🧊Donasi' }, type: 1 }]
             await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
             }
             break

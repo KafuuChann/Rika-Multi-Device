@@ -1,6 +1,6 @@
 /**
  * Base By Dika Ardnt.
- * Recode By GuaAbuzz
+ * Recode By @Rika
  * Kalau Mau Recode, Edit Aja Di confiq.js
  * Mumpung Lagi Baik Ini Gua Share No Enc Buat Kalian
  * Contact Me On wa.me/6289636827082
@@ -122,7 +122,7 @@ module.exports = akame = async (akame, m, chatUpdate, store) => {
             var ucapanWaktu = '𝑺𝒆𝒍𝒂𝒎𝒂𝒕 𝑻𝒆𝒏𝒈𝒂𝒉 𝑴𝒂𝒍𝒂𝒎 🌃'
         }
 
-        //Time Menuju Ulang Tahun Untuk GuaAbuzz :)
+        //Time Menuju Ulang Tahun Untuk Rika :)
         const HBD = new Date('July 17, 2023 06:00:00').getTime();
         const sekarang = new Date().getTime();
         const Selisih = HBD - sekarang;
@@ -147,7 +147,7 @@ const ftroli = {
             thumbnail: thumb,
             surface: 200,
             message: `Haii Kak ${pushname}\n𝙲𝚖𝚍 ${command}`,
-            orderTitle: 'Please Follow TikTok @GuaAbuzz',
+            orderTitle: 'Please Follow TikTok @@Eichii01',
             sellerJid: '0@s.whatsapp.net'
         }
     },
@@ -167,7 +167,7 @@ const fdoc = {
     },
     message: {
         documentMessage: {
-            title: '©GuaAbuzz',
+            title: '©@Rika',
             jpegThumbnail: thumb
         }
     }
@@ -197,11 +197,11 @@ const fgif = {
     },
     message: {
         "videoMessage": {
-            "title": '©GuaAbuzz',
+            "title": '©@Rika',
             "h": `Hmm`,
             'seconds': '359996400',
             'gifPlayback': 'true',
-            'caption': '©GuaAbuzz',
+            'caption': '©@Rika',
             'jpegThumbnail': thumb
         }
     }
@@ -217,7 +217,7 @@ const fgclink = {
             "groupJid": "6289636827082-1635036556@g.us",
             "inviteCode": "https://chat.whatsapp.com/FGmVjFYJBjjGst62qwNKJB",
             "groupName": "Akame Bot",
-            "caption": '©GuaAbuzz',
+            "caption": '©@Rika',
             'jpegThumbnail': thumb
         }
     }
@@ -251,7 +251,7 @@ const floc = {
     },
     message: {
         locationMessage: {
-            name: 'GuaAbuzz Creator',
+            name: '@Rika Creator',
             jpegThumbnail: thumb
         }
     }
@@ -266,8 +266,8 @@ const fkontak = {
     },
     message: {
         'contactMessage': {
-            'displayName': 'GuaAbuzz Creator',
-            'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;GuaAbuzz Creator;;;\nFN:GuaAbuzz Creator\nitem1.TEL;waid=6289636827082:6289636827082\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
+            'displayName': '@Rika Creator',
+            'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;Rikaamew Creator;;;\nFN:Rikaamew Creator\nitem1.TEL;waid=62887435006141:62887435006141\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
             'jpegThumbnail': thumb,
             thumbnail: thumb,
             sendEphemeral: true
@@ -287,7 +287,7 @@ const fakestatus = {
         "imageMessage": {
             "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc",
             "mimetype": "image/jpeg",
-            "caption": '©GuaAbuzz',
+            "caption": '©@Rika',
             "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=",
             "fileLength": "28777",
             "height": 1080,
@@ -391,7 +391,7 @@ const fakestatus = {
 	    if (new Date() * 1 - setting.status > 1000) {
 		let _uptime = process.uptime() * 1000
 		let uptime = clockString(_uptime)
-		await akame.updateProfileStatus(`I am Akame-Bot | Aktif Selama ${uptime} | Mode : ${akame.public ? 'Public-Mode' : 'Self-Mode'} | User : ${Object.keys(global.db.data.users).length} | Jangan Telp Bot | © Created GuaAbuzz-Kun`).catch(_ => _)
+		await akame.updateProfileStatus(`I am Akame-Bot | Aktif Selama ${uptime} | Mode : ${akame.public ? 'Public-Mode' : 'Self-Mode'} | User : ${Object.keys(global.db.data.users).length} | Jangan Telp Bot | © Created @Rika-Chan`).catch(_ => _)
 		setting.status = new Date() * 1
 	    }
 	}
@@ -1152,7 +1152,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 anu = `⭔ Allah SWT.
 ⭔ Ortu Saya.
 ⭔ DikaArdnt (Author).
-⭔ GuaAbuzz (Recode).
+⭔ @Rika (Recode).
 ⭔ SkyzooDev.
 ⭔ Sanzy YT.
 ⭔ Fatih A.
@@ -1204,7 +1204,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
 │└─────────────┈❖
 │ Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
 │ Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 │ WIB : ${wib}
 │ WITA : ${wita}
@@ -1301,8 +1301,8 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
 📚 *Base : Dika Ardnt* 
 ⌲ https://github.com/DikaArdnt/Hisoka-Morou
 
-🌱 *Recode By : GuaAbuzz*
-⎙ https://github.com/Abuzzpoet/AkameV2.0`
+🌱 *Recode By : @Rika*
+⎙ https://github.com/Rika.js/RikaChan`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
             }
@@ -1397,7 +1397,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 break
             case 'gantengcek':
             case 'cekganteng': {
-                if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} GuaAbuzz`)
+                if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} @Rika`)
                 const gan = ['10% banyak" perawatan ya bang:v\nCanda Perawatan:v','30% Semangat bang Merawat Dirinya><','20% Semangat Ya bang👍','40% Wahh bang><','50% abang Ganteng deh><','60% Hai Ganteng🐊','70% Hai Ganteng🐊','62% Bang Ganteng><','74% abang ni ganteng deh><','83% Love You abang><','97% Assalamualaikum Ganteng🐊','100% Bang Pake Susuk ya??:v','29% Semangat Bang:)','94% Hai Ganteng><','75% Hai Bang Ganteng','82% wihh abang Pasti Sering Perawatan kan??','41% Semangat:)','39% Lebih Semangat🐊']
                 const teng = gan[Math.floor(Math.random() * gan.length)]
                 akame.sendMessage(m.chat, {
@@ -2885,7 +2885,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             case 'gitstalk':
             case 'ghstalk':
             case 'githubstalk': {
-            if (!text) throw `Kirim perintah ${prefix + command} *username*\n\nContoh : ${prefix + command} Abuzzpoet`
+            if (!text) throw `Kirim perintah ${prefix + command} *username*\n\nContoh : ${prefix + command} Rika Mew`
                 let y = await fetchJson(`https://api.github.com/users/${text}`)
                 let caption = `Stalk Github :\n\n`
                 let i = y
@@ -4240,12 +4240,12 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                     { buttonId: `menfesconfirm ${m.sender}`, buttonText: { displayText: '⌲ Terima Menfess' }, type: 1 },
                     { buttonId: `menfess`, buttonText: { displayText: '⌲ Kirim Menfess' }, type: 1 }
                 ]
-			akame.sendMessage(`${nomor}@s.whatsapp.net`, { text:`PESAN RAHASIA\n\nHai kak ada Menfess nih!!\n─────────────\n*Akame-Bot*\n─────────────\n\nDari : _${saking}_ \nPesan : _${pesan}_`, title: 'PESAN RAHASIA DECTETED', footer: 'Ciee ada yang ngirim pesan nih\n© 2022 GuaAbuzz', buttons: buttons, headerType: 5 })
+			akame.sendMessage(`${nomor}@s.whatsapp.net`, { text:`PESAN RAHASIA\n\nHai kak ada Menfess nih!!\n─────────────\n*Rika Bott*\n─────────────\n\nDari : _${saking}_ \nPesan : _${pesan}_`, title: 'PESAN RAHASIA DECTETED', footer: 'Ciee ada yang ngirim pesan nih\n© 2022 RikaChann', buttons: buttons, headerType: 5 })
 				m.reply(`Sukses Mengirim Menfess!!`)
 				}
 				break
 			case 'menfesconfirm': {
- 				 akame.sendMessage(q, { text: `Sudah Di Confirmasi Nih Menfess nyaa🤭` })
+ 				 akame.sendMessage(q, { text: `Sudah Di Confirmasi Nih Menfess nyaa😅` })
 				  m.reply(`Terimakasih Menfess Telah Diterima`)
 				  }
 				break
@@ -4998,7 +4998,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
             break
             //Jangan Dihapus Tar Eror Banh
             case 'owner': case 'creator': {
-                const _0x445474=_0x3cf6;(function(_0x3401e7,_0x53a2b9){const _0x158251=_0x3cf6,_0x46c70d=_0x3401e7();while(!![]){try{const _0x193874=-parseInt(_0x158251(0x1d1))/0x1*(-parseInt(_0x158251(0x1c1))/0x2)+-parseInt(_0x158251(0x1c5))/0x3+parseInt(_0x158251(0x1bd))/0x4+parseInt(_0x158251(0x1b7))/0x5+-parseInt(_0x158251(0x1ba))/0x6*(-parseInt(_0x158251(0x1bb))/0x7)+parseInt(_0x158251(0x1cf))/0x8+parseInt(_0x158251(0x1b9))/0x9*(-parseInt(_0x158251(0x1ce))/0xa);if(_0x193874===_0x53a2b9)break;else _0x46c70d['push'](_0x46c70d['shift']());}catch(_0xe21c14){_0x46c70d['push'](_0x46c70d['shift']());}}}(_0x3875,0x8d051));let vcard=_0x445474(0x1cc)+_0x445474(0x1cd)+_0x445474(0x1c2)+'FN:GuaAbuzz\x20Creator\x0a'+_0x445474(0x1ca)+_0x445474(0x1d0)+_0x445474(0x1c4)+_0x445474(0x1be)+_0x445474(0x1c7)+_0x445474(0x1c6)+_0x445474(0x1c3)+_0x445474(0x1c8)+_0x445474(0x1cb)+_0x445474(0x1bc);akame[_0x445474(0x1b8)](m[_0x445474(0x1bf)],{'contacts':{'displayName':'GuaAbuzz','contacts':[{'vcard':vcard}]}},{'quoted':fkontak}),akame[_0x445474(0x1c9)](m['chat'],global[_0x445474(0x1c0)],fkontak);function _0x3cf6(_0x22dca4,_0x3ee73c){const _0x38752a=_0x3875();return _0x3cf6=function(_0x3cf604,_0x347033){_0x3cf604=_0x3cf604-0x1b7;let _0x216783=_0x38752a[_0x3cf604];return _0x216783;},_0x3cf6(_0x22dca4,_0x3ee73c);}function _0x3875(){const _0xb70662=['item1.X-ABLabel:Creator\x20Akame\x20-\x20MD\x0a','1413057MtYRuC','item3.URL:https://tiktok.com/@guaabuzz\x0a','item2.X-ABLabel:Email\x0a','item4.ADR:;;Jepang;;;;\x0a','sendContact','ORG:GuaAbuzz;\x0a','item4.X-ABLabel:Region\x0a','BEGIN:VCARD\x0a','VERSION:3.0\x0a','18790eFXtSj','7868672tVraCp','item1.TEL;type=CELL;type=VOICE;waid=6289636827082:+62\x20896-3682-7082\x0a','1vsWqtL','237870SRUJgD','sendMessage','7299RVmKXN','700494gXijeh','49uhbWoM','END:VCARD','903716QJEYjg','item2.EMAIL;type=INTERNET:rajifarmansyah46@gmail.com\x0a','chat','owner','996350xypUAk','N:;GuaAbuzz\x20Creator;;;','item3.X-ABLabel:TikTok\x0a'];_0x3875=function(){return _0xb70662;};return _0x3875();}
+                const _0x445474=_0x3cf6;(function(_0x3401e7,_0x53a2b9){const _0x158251=_0x3cf6,_0x46c70d=_0x3401e7();while(!![]){try{const _0x193874=-parseInt(_0x158251(0x1d1))/0x1*(-parseInt(_0x158251(0x1c1))/0x2)+-parseInt(_0x158251(0x1c5))/0x3+parseInt(_0x158251(0x1bd))/0x4+parseInt(_0x158251(0x1b7))/0x5+-parseInt(_0x158251(0x1ba))/0x6*(-parseInt(_0x158251(0x1bb))/0x7)+parseInt(_0x158251(0x1cf))/0x8+parseInt(_0x158251(0x1b9))/0x9*(-parseInt(_0x158251(0x1ce))/0xa);if(_0x193874===_0x53a2b9)break;else _0x46c70d['push'](_0x46c70d['shift']());}catch(_0xe21c14){_0x46c70d['push'](_0x46c70d['shift']());}}}(_0x3875,0x8d051));let vcard=_0x445474(0x1cc)+_0x445474(0x1cd)+_0x445474(0x1c2)+'FN:@Rika\x20Creator\x0a'+_0x445474(0x1ca)+_0x445474(0x1d0)+_0x445474(0x1c4)+_0x445474(0x1be)+_0x445474(0x1c7)+_0x445474(0x1c6)+_0x445474(0x1c3)+_0x445474(0x1c8)+_0x445474(0x1cb)+_0x445474(0x1bc);akame[_0x445474(0x1b8)](m[_0x445474(0x1bf)],{'contacts':{'displayName':'@Rika','contacts':[{'vcard':vcard}]}},{'quoted':fkontak}),akame[_0x445474(0x1c9)](m['chat'],global[_0x445474(0x1c0)],fkontak);function _0x3cf6(_0x22dca4,_0x3ee73c){const _0x38752a=_0x3875();return _0x3cf6=function(_0x3cf604,_0x347033){_0x3cf604=_0x3cf604-0x1b7;let _0x216783=_0x38752a[_0x3cf604];return _0x216783;},_0x3cf6(_0x22dca4,_0x3ee73c);}function _0x3875(){const _0xb70662=['item1.X-ABLabel:Creator\x20Akame\x20-\x20MD\x0a','1413057MtYRuC','item3.URL:https://tiktok.com/@@Rika\x0a','item2.X-ABLabel:Email\x0a','item4.ADR:;;Jepang;;;;\x0a','sendContact','ORG:@Rika;\x0a','item4.X-ABLabel:Region\x0a','BEGIN:VCARD\x0a','VERSION:3.0\x0a','18790eFXtSj','7868672tVraCp','item1.TEL;type=CELL;type=VOICE;waid=62887435006141:+62\x8874-3500-6141\x0a','1vsWqtL','237870SRUJgD','sendMessage','7299RVmKXN','700494gXijeh','49uhbWoM','END:VCARD','903716QJEYjg','item2.EMAIL;type=INTERNET:rika.meww@gmail.com\x0a','chat','owner','996350xypUAk','N:;Rika\x20Creator;;;','item3.X-ABLabel:TikTok\x0a'];_0x3875=function(){return _0xb70662;};return _0x3875();}
             }
             break
             case 'bug':
@@ -5561,7 +5561,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 GROUP 」
@@ -5612,7 +5612,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 DOWNLOADER 」
@@ -5655,7 +5655,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 SEARCH 」
@@ -5690,7 +5690,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 STICKER 」
@@ -5726,7 +5726,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 ANIME 」
@@ -5811,7 +5811,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 NSFW 」
@@ -5855,7 +5855,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 ASUPAN 」
@@ -5895,7 +5895,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 QUOTES 」
@@ -5938,7 +5938,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 MEME 」
@@ -5971,7 +5971,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 RANDOM 」
@@ -6003,7 +6003,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 TEXT PRO 」
@@ -6060,7 +6060,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 PHOTO EDITOR 」
@@ -6104,7 +6104,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 EPHOTO 」
@@ -6165,7 +6165,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 GAME 」
@@ -6197,7 +6197,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 PRIMBON 」
@@ -6253,7 +6253,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 CONVERT 」
@@ -6289,7 +6289,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 MAIN 」
@@ -6328,7 +6328,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 DATABASE 」
@@ -6362,7 +6362,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 ANONYMOUS CHAT 」
@@ -6393,7 +6393,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 ISLAMIC 」
@@ -6429,7 +6429,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 KERANG 」
@@ -6474,7 +6474,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 VOICE CHANGER 」
@@ -6511,7 +6511,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 STALK 」
@@ -6540,7 +6540,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 OWNER 」
@@ -6584,7 +6584,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 WEBZONE 」
@@ -6619,7 +6619,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 WALLPAPER 」
@@ -6665,7 +6665,7 @@ Request Message: ${text}`
 │• Prefix : ( ${prefix} )
 │• Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}
 │• Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
-│• Menuju HBD GuaAbuzz :
+│• Menuju HBD @Rika :
 │   ${menuju}
 │• Wib : ${wib}
 │• Wita : ${wita}
@@ -6691,7 +6691,7 @@ Request Message: ${text}`
 │ Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju HBD GuaAbuzz :
+│ Menuju HBD @Rika :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 ANONYMOUS CHAT 」
@@ -7200,7 +7200,7 @@ Request Message: ${text}`
         	let buttons = [
                     { buttonId: `owner`, buttonText: { displayText: 'Chat Owner' }, type: 1 }
                 ]
-			akame.sendMessage(m.chat, { text:`INVITE DETECT\n\nMau masukin bot ini ke group kamu?`, title: 'LINK GROUP DECTETED', footer: '© 2022 GuaAbuzz', buttons: buttons, headerType: 5 })
+			akame.sendMessage(m.chat, { text:`INVITE DETECT\n\nMau masukin bot ini ke group kamu?`, title: 'LINK GROUP DECTETED', footer: '© 2022 @Rika', buttons: buttons, headerType: 5 })
 		}
                 if (budy.startsWith('=>')) {
                     if (!isCreator) return m.reply(mess.owner)
